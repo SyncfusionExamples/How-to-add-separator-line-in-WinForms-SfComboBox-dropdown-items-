@@ -4,9 +4,7 @@ This requirement can be achieved by handling SfComboBox.DropDownListView.DrawIte
 
 In the below code, need to set the CheckBoxStyle using reflection concepts to handle the state of checkbox at runtime, then draw the checkbox, item text and separator line manually. The MouseMove event handling is get the mouse hovering item index to highlight the dropdown item.
 
-{% tabs %}
-
-{% highlight C# %}
+# C#
 
 private void DropDownListView_DrawItem(object sender, Syncfusion.WinForms.ListView.Events.DrawItemEventArgs e)
 {
@@ -48,7 +46,5 @@ private void SfComboBox1_MouseMove(object sender, MouseEventArgs e)
     mouseHoverItemIndex = (sender as SfListView).GetRowIndexAtPoint(e.Location);
     list.Invalidate();
 }
-
-{% endhighlight %}
 
 ![Seperator to SfComboBox](SfComboBox/SfComboBox/Image/Add%20Seperator%20to%20ComboBox.png)
