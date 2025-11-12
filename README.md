@@ -72,4 +72,4 @@ private void SfComboBox1_MouseMove(object sender, MouseEventArgs e)
 For more details, refer to the official KB article: https://www.syncfusion.com/kb/11498/how-to-add-separator-line-in-winforms-sfcombobox-dropdown-iems
 
 ## Screenshot
-![Separator in SfComboBox](SfComboBox/SfComboBox/Image/Add%20Seperator%20to%20ComboBox.png)
+![Separator in SfComboBox](SfComboBox/SfComboBox/Image/Add%20Separator%20to%20ComboBox.png)
